@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+config.yaml
+*.key
+*.pem
+*.p12
+
+# Private evidence exports
+result.json
+telegram-export/
+telegram-bot-export/
+ChatExport_*/
+private-evidence/
+request_dump_*.json
+*.jsonl
+*.sqlite
+*.db
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python/cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
